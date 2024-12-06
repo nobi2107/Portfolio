@@ -1,0 +1,341 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Nguyễn Tuấn Anh - BT TUAN 7</title>
+    <!-- Bootstrap -->
+   <link href="css/bootstrap-4.4.1.css" rel="stylesheet" type="text/css">
+   <link href="css/mystyle.css" rel="stylesheet" type="text/css">
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-lg">
+      <div class="container">
+        <a class="navbar-brand" href="#"> <img src="images/pnc.jpg" width="180"></a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation" >
+        <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav mr-auto">
+            <li class="nav-item active">
+              <a class="nav-link" href="#">Trang chủ<span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Giới thiệu</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Thể loại</a>
+              <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <a class="dropdown-item" href="#">Văn học</a>
+                <a class="dropdown-item" href="#">Tiểu thuyết</a>
+                <a class="dropdown-item" href="#">Khoa học viễn tưởng</a>
+                <a class="dropdown-item" href="#">Nghệ thuật</a>
+                <div class="dropdown-divider"></div>
+                <a class="dropdown-item" href="#">Xem tất cả</a>
+              </div>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Sự kiện</a>
+            </li>
+			<li class="nav-item">
+              <a class="nav-link" href="#">Tin tức</a>
+            </li>
+			<li class="nav-item">
+              <a class="nav-link" href="#">Liên kết</a>
+            </li>
+          </ul>
+          <form class="form-inline my-2 my-lg-0">
+            <input class="form-control mr-sm-2" type="search" placeholder="Nhập từ khoá" aria-label="Search">
+            <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Tìm kiếm</button>
+          </form>
+        </div>
+      </div>
+    </nav>
+    <div class="container mt-3">
+      <div class="row">
+        <div class="col-12">
+          <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
+            <ol class="carousel-indicators">
+              <li data-target="#carouselExampleControls" data-slide-to="0" class="active"></li>
+              <li data-target="#carouselExampleControls" data-slide-to="1"></li>
+              <li data-target="#carouselExampleControls" data-slide-to="2"></li>
+            </ol>
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img class="d-block w-100" src="images/banner1.jpg" alt="First slide">
+                <div class="carousel-caption d-none d-md-block">
+                  <h5>Nguồn sách phong phú</h5>
+                  <p>Tại đây, chúng tôi luôn cố gắng tìm kiếm nguồn sách đa dạng, thú vị và tuyệt vời để phục vụ nhu cầu của mọi khách hàng.</p>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <img class="d-block w-100" src="images/banner2.jpg" alt="Second slide">
+                <div class="carousel-caption d-none d-md-block">
+                  <h5>Mua sách trực tuyến</h5>
+                  <p>Bạn có thể đặt bất kì một cuốn sách nào có mặt tại cửa hàng và chúng tôi sẽ giao nó đến tận nhà trên toàn quốc</p>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <img class="w-100" src="images/banner3.jpg" alt="Third slide">
+                <div class="carousel-caption d-none d-md-block">
+                  <h5>Tập học sinh, văn phòng phẩm giá sỉ</h5>
+                  <p>Mua số lượng lớn vui lòng liên hệ hotline để báo giá ưu đãi nhất</p>
+                </div>
+              </div>
+            </div>
+            <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="sr-only">Previous</span>
+            </a>
+            <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="sr-only">Next</span>
+            </a>
+          </div>
+        </div>
+      </div>
+      <hr>
+    </div>
+    <div class="container">
+      <div class="row">
+        <div class="col-4">
+          <div class="row">
+            <div class="col-2"><img class="rounded-circle" alt="Free Shipping" src="images/books.jpg"></div>
+            <div class="col-lg-6 col-10 ml-1">
+              <h4>Đa dạng</h4>
+            </div>
+          </div>
+        </div>
+        <div class="col-4">
+          <div class="row">
+            <div class="col-2"><img class="rounded-circle" alt="Free Shipping" src="images/decor.jpg"></div>
+            <div class="col-lg-6 col-10 ml-1">
+              <h4>Bản quyền</h4>
+            </div>
+          </div>
+        </div>
+        <div class="col-4">
+          <div class="row">
+            <div class="col-2"><img class="rounded-circle" alt="Free Shipping" src="images/online-shopping.jpg"></div>
+            <div class="col-lg-6 col-10 ml-1">
+              <h4>Miễn ship</h4>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <hr>
+    <h2 class="text-center">Một số loại sách phổ biến</h2>
+    <hr>
+    <div class="container">
+      <div class="row text-center">
+        <div class="col-md-4 pb-1 pb-md-0">
+          <div class="card">
+            <img class="card-img-top" src="images/category1.jpg" alt="Card image cap">
+            <div class="card-body">
+              <h5 class="card-title">Văn học Việt Nam</h5>
+              <p class="card-text">Mỗi tác phẩm văn học chứa đựng nhiều giá trị về văn hóa, lịch sử, tư tưởng,... của con người ở các thời đại khác nhau và mang lại nhiều cảm xúc cho độc giả.</p>
+              <a href="#" class="btn btn-primary">Xem chi tiết</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4 pb-1 pb-md-0">
+          <div class="card">
+            <img class="card-img-top" src="images/category2.jpg" alt="Card image cap">
+            <div class="card-body">
+              <h5 class="card-title">Tiểu thuyết lãng mạn</h5>
+              <p class="card-text">Tình yêu mãi là nguồn cảm hứng bất tận cho các nhà văn, nhà thơ. Thông qua các tác phẩm, người đọc sẽ được trải nghiệm nhiều cung bậc cảm xúc.</p>
+              <a href="#" class="btn btn-primary">Xem chi tiết</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4 pb-1 pb-md-0">
+          <div class="card">
+            <img class="card-img-top" src="images/category3.jpg" alt="Card image cap">
+            <div class="card-body">
+              <h5 class="card-title">Khoa học viễn tưởng</h5>
+              <p class="card-text">Những câu chuyện giả tưởng dựa trên các triết lý khoa học như công nghệ tương lai, du hành vũ trụ, du hành thời gian,... có tình tiết hấp dẫn và lôi cuốn.</p>
+              <a href="#" class="btn btn-primary">Xem chi tiết</a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="row text-center mt-4">
+        <div class="col-md-4 pb-1 pb-md-0">
+          <div class="card">
+            <img class="card-img-top" src="images/category4.jpg" alt="Card image cap">
+            <div class="card-body">
+              <h5 class="card-title">Nghệ thuật</h5>
+              <p class="card-text">Người đọc sẽ có một cái nhìn rõ ràng về các khái niệm, sự phát triển của nghệ thuật và những lợi ích tốt đẹp mà nghệ thuật mang lại cho các lĩnh vực.</p>
+              <a href="#" class="btn btn-primary">Xem chi tiết</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4 pb-1 pb-md-0">
+          <div class="card">
+            <img class="card-img-top" src="images/category5.jpg" alt="Card image cap">
+            <div class="card-body">
+              <h5 class="card-title">Lịch sử</h5>
+              <p class="card-text">Những quyển sách tái hiện các sự kiện trong quá khứ bị lãng quên, thất lạc hay bị che giấu bởi một yếu tố xã hội nào đó và khai thác sâu sắc ý nghĩa.</p>
+              <a href="#" class="btn btn-primary">Xem chi tiết</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4 pb-1 pb-md-0">
+          <div class="card">
+            <img class="card-img-top" src="images/category6.jpg" alt="Card image cap">
+            <div class="card-body">
+              <h5 class="card-title">Trinh thám</h5>
+              <p class="card-text">Những quyển sách thu hút số lượng lớn độc giả bởi sự kịch tính, bất ngờ của nó cũng như khả năng tư duy cao và khối lượng thông tin khổng lồ của tác giả.</p>
+              <a href="#" class="btn btn-primary">Xem chi tiết</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>s
+    <hr>
+    <h2 class="text-center">Một số sách nổi bật</h2>
+    <hr>
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-4">
+          <ul class="list-unstyled">
+            <li class="media">
+              <img class="mr-3" src="images/book1.jpg" alt="Generic placeholder image">
+              <div class="media-body">
+                <h5 class="mt-0 mb-1">Tuổi thơ dữ dội</h5>
+                Một tác phẩm truyện dài của nhà văn Phùng Quán. Cuốn truyện xoay quanh cuộc sống chiến đấu... <a class="xemchitiet" href="#">Xem chi tiết</a>
+              </div>
+            </li>
+            <li class="media my-4">
+              <img class="mr-3" src="images/book4.jpg" alt="Generic placeholder image">
+              <div class="media-body">
+                <h5 class="mt-0 mb-1">Sherlock Holmes</h5>
+                Đây là tác phẩm nổi tiếng của nhà văn Conan Doyle. Truyện xoay quanh nhân vật Sherlock Holmes... <a class="xemchitiet" href="#">Xem chi tiết</a>
+              </div>
+            </li>
+            <li class="media">
+              <img class="mr-3" src="images/book7.jpg" alt="Generic placeholder image">
+              <div class="media-body">
+                <h5 class="mt-0 mb-1">Câu chuyện nghệ thuật</h5>
+                Cuốn sách là một bước dạo đầu mới lạ đưa độc giả vào chủ đề nghệ thuật. Với kết cấu đơn giản, cuốn sách... <a class="xemchitiet" href="#">Xem chi tiết</a>
+              </div>
+            </li>
+          </ul>
+        </div>
+        <div class="col-lg-4">
+          <ul class="list-unstyled">
+            <li class="media">
+              <img class="mr-3" src="images/book2.jpg" alt="Generic placeholder image">
+              <div class="media-body">
+                <h5 class="mt-0 mb-1">Mắt biếc</h5>
+				Một trong những tác phẩm nổi tiếng của nhà văn Nguyễn Nhật Ánh. Mắt biếc kể về cuộc đời của nhân vật chính... <a class="xemchitiet" href="#">Xem chi tiết</a>
+              </div>
+            </li>
+            <li class="media my-4">
+              <img class="mr-3" src="images/book5.jpg" alt="Generic placeholder image">
+              <div class="media-body">
+                <h5 class="mt-0 mb-1">Hoàng tử bé</h5>
+                Trong nửa thế kỷ qua, "Hoàng tử bé" vẫn là cuốn sách tiếng Pháp được yêu thích nhất. Cuốn sách xoay quanh... <a class="xemchitiet" href="#">Xem chi tiết</a>
+              </div>
+            </li>
+            <li class="media">
+              <img class="mr-3" src="images/book8.jpg" alt="Generic placeholder image">
+              <div class="media-body">
+                <h5 class="mt-0 mb-1">Đất rừng phương Nam</h5>
+                Với lối viết mộc mạc, hiểu biết sâu rộng và tình yêu miền đất nơi mình sinh ra, Đoàn Giỏi đã cho ta thấy... <a class="xemchitiet" href="#">Xem chi tiết</a>
+              </div>
+            </li>
+          </ul>
+        </div>
+        <div class="col-lg-4">
+          <ul class="list-unstyled">
+            <li class="media">
+              <img class="mr-3" src="images/book3.jpg" alt="Generic placeholder image">
+              <div class="media-body">
+                <h5 class="mt-0 mb-1">Giông tố</h5>
+                Với ngòi bút châm biếm sâu sắc, Vũ Trọng Phụng đã miêu tả và kể về sự thối nát, bần cùng, bất công của xã hội... <a class="xemchitiet" href="#">Xem chi tiết</a>
+              </div>
+            </li>
+            <li class="media my-4">
+              <img class="mr-3" src="images/book6.jpg" alt="Generic placeholder image">
+              <div class="media-body">
+                <h5 class="mt-0 mb-1">451 độ f</h5>
+                Cuốn sách kể về một thế giới trong tương lai, khi nền văn minh phát triển vượt bậc. Một thế giới do... <a class="xemchitiet" href="#">Xem chi tiết</a>
+              </div>
+            </li>
+            <li class="media">
+              <img class="mr-3" src="images/book9.jpg" alt="Generic placeholder image">
+              <div class="media-body">
+				<h5 class="mt-0 mb-1">Việt Nam sử lược</h5>
+                Đây là tác phẩm do nhà sử học Trần Trọng Kim biên soạn năm 1919, là cuốn sách lịch sử Việt Nam đầu tiên... <a class="xemchitiet" href="#">Xem chi tiết</a>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <hr>
+    <div class="container text-white p-4 footer">
+      <div class="row">
+        <div class="col-6 col-md-8 col-lg-7">
+          <div class="row text-center">
+            <div class="col-sm-6 col-md-4 col-lg-4 col-12">
+              <ul class="list-unstyled">
+                <li class="btn-link"> <a>Trang chủ</a> </li>
+                <li class="btn-link"> <a>Sách mới</a> </li>
+                <li class="btn-link"> <a>Thể loại</a> </li>
+                <li class="btn-link"> <a>Sự kiện</a> </li>
+                <li class="btn-link"> <a>Liên kết</a> </li>
+              </ul>
+            </div>
+            <div class="col-sm-6 col-md-4 col-lg-4 col-12">
+              <ul class="list-unstyled">
+                <li class="btn-link"> <a>Lịch sử</a> </li>
+                <li class="btn-link"> <a>Nghệ thuật</a> </li>
+                <li class="btn-link"> <a>Chính trị</a> </li>
+                <li class="btn-link"> <a>Tôn giáo</a> </li>
+                <li class="btn-link"> <a>Tâm lý học</a> </li>
+              </ul>
+            </div>
+            <div class="col-sm-6 col-md-4 col-lg-4 col-12">
+              <ul class="list-unstyled">
+                <li class="btn-link"> <a>Sách hướng dẫn</a> </li>
+                <li class="btn-link"> <a>Tự truyện</a> </li>
+                <li class="btn-link"> <a>Trinh thám</a> </li>
+                <li class="btn-link"> <a>Kinh dị</a> </li>
+                <li class="btn-link"> <a>Truyện tranh</a> </li>
+                                
+              </ul>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4 col-lg-5 col-6">
+          <address>
+            <strong>Địa chỉ tiệm sách</strong><br>
+            Phường 15, Tân Bình, TP.HCM<br>
+            <abbr title="Phone">P:</abbr> 123 456 7890
+          </address>
+          <address>
+            <strong>Liên hệ</strong><br>
+            <a href="mailto:#">tiemsachnho@example.com</a>
+          </address>
+        </div>
+      </div>
+    </div>
+    <footer class="text-center">
+      <div class="container">
+        <div class="row">
+          <div class="col-12">
+          </div>
+        </div>
+      </div>
+    </footer>
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="images/banner1.jpg"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="images/banner2.jpg"></script>
+    <script src="images/banner3.jpg"></script>
+  </body>
+</html>

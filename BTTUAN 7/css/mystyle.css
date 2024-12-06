@@ -1,0 +1,92 @@
+@charset "utf-8";
+/* CSS Document */
+
+h2, h4 {
+	color: coral;
+}
+
+.navbar { 
+	background-color: #000FFF;
+}
+.navbar .nav-item {
+}
+.navbar .nav-item .nav-link {
+	color: #FDFDFD;
+	font-weight: bold; 
+}
+.navbar .nav-item .nav-link:hover {
+	color: #FFCE00;
+}
+
+.carousel {
+}
+.carousel .carousel-caption h5 {
+	font-size: 40px;
+}
+.carousel .carousel-caption p {
+	font-weight: bold;
+}
+.card {
+	border: #FFCE00 dashed 4px; 
+	padding: 10px; 
+	border-top-left-radius: 30px;
+	border-bottom-right-radius: 30px; 
+
+}
+.card .card-img-top {
+	border-radius: 10px;
+}
+.card .card-body {
+	
+}
+.card .card-title {
+	color: #FFCE00;
+	font-weight: bold;
+}
+.card .card-body .card-text {
+	text-align: justify;
+	color: #0E0E0E;
+	font-size : 15px;
+}
+.btn-primary,
+.btn-outline-success{
+	background-color: #FFCE00;
+	border: none;
+	color: #FDFDFD;
+	font-weight: bold	;
+}
+.btn-primary:hover,
+.btn-outline-success:hover {
+	background-color: coral; 
+	color: #FDFDFD ;
+	text-shadow:#FC0 1px 0 10px;
+}
+.media {
+  	display: flex;
+	align-items: center;
+}
+.media img {
+}
+.media-body {
+	text-align: justify;
+	font-size: 15px
+}
+.media .media-body h5 {
+	color: #e5c808; 
+}
+.footer {
+	background-color: #264f9f;
+}
+.footer ul li {
+	text-align: left;	
+}
+.footer ul li a {
+	color: #FDFDFD;
+}
+.footer a:hover {
+	text-decoration: none;
+	color: #e5c808;
+}
+
+
+
